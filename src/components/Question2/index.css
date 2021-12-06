@@ -1,0 +1,28 @@
+.question2 {
+  width: 80vw;
+}
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #c0c0c0;
+}
+
+th {
+  background: cornflowerblue;
+  color: rgb(32 68 135);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: rgba(151, 187, 255, 0.637);
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
